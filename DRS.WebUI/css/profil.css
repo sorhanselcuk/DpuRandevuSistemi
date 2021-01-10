@@ -1,0 +1,569 @@
+﻿p{color:black;}
+body {
+background-image: url('../img/arkaplan.jpg');
+}
+.sola-kaydir{
+float:left;
+padding:0 10px 10px 30px;
+}
+.pakademisyenTarihEkleDuzenle{
+position: absolute;
+color :white;
+font-size:15px;
+left :150px;
+top  :150px; 
+}.inputakademisyenTarihEkleDuzenle{
+position: absolute;
+left :250px;
+top  :150px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.pakademisyenSaatEkleDuzenle{
+position: absolute;
+color :white;
+font-size:15px;
+left :150px;
+top  :200px; 
+}
+.inputakademisyenSaatEkleDuzenle{
+position: absolute;
+left :250px;
+top  :200px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.inputakademisyenTarihEkleFakulte{
+position: absolute;
+left :250px;
+top  :150px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.inputakademisyenTarihEkleBolum{
+position: absolute;
+left :250px;
+top  :200px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.pakademisyenTarihEkleFakulte{
+position: absolute;
+color :white;
+font-size:15px;
+left :150px;
+top  :150px; 
+}
+.pakademisyenTarihEkleBolum{
+    position: absolute;
+    color :white;
+    font-size:15px;
+    left :150px;
+    top  :200px; 
+    }
+.ogrenciRandevuButton2{
+position: absolute;
+left  : 430px;
+top   : 350px;
+width : 185px;
+height: 25px;
+background: rgb(153, 194, 247);
+border-radius: 5px;
+
+}
+.ogrenciRandevuButton3 {
+    position: absolute;
+    left: 304px;
+    top: 450px;
+    width: 185px;
+    height: 25px;
+    background: rgb(153, 194, 247);
+    border-radius: 5px;
+}
+.Konu {
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    color : white;
+ 
+}
+.TextBoxKonu {
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    width: 238px;
+    height: 25px;
+    border-radius: 5px;
+}
+.pogrenciRandevularTablo{
+position: absolute;
+left  : 100px;
+top   : 250px;   
+width : 1200px;
+height: 200px;
+
+}
+.pogrenciRandevularAkademisyen2{
+    position: absolute;
+    color :white;
+    font-size:15px;
+    left :150px;
+    top  :250px; 
+}
+.inputogrenciRandevularAkademisyen2{
+position: absolute;
+left :250px;
+top  :250px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.pogrenciRandevularTarih2{
+position: absolute;
+color :white;
+font-size:15px;
+left :150px;
+top  :300px;
+}
+.inputogrenciRandevularTarih2{
+position: absolute;
+left :250px;
+top  :300px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.pogrenciRandevularSaatler2{
+    position: absolute;
+    color :white;
+    font-size:15px;
+    left :150px;
+    top  :350px;
+}
+.inputogrenciRandevularSaat2{
+    position: absolute;
+    left :250px;
+    top  :350px;
+    width : 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.pRandevularTarih{
+position: absolute;
+color :white;
+font-size:15px;
+left :150px;
+top  :150px; 
+}
+.pRandevularTarihEkle{
+position: absolute;
+color :white;
+font-size:15px;
+left :600px;
+top  :100px;     
+}
+.pRandevularSaatEkle{
+position: absolute;
+color :white;
+font-size:15px;
+left :850px;
+top  :100px;     
+}
+.inputRandevularTarih{
+position: absolute;
+left :200px;
+top  :150px;
+width : 100px;
+height: 25px;
+border-radius: 5px;
+}
+.inputRandevularTarihEkle{
+position: absolute;
+left :670px;
+top  :100px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.inputRandevularSaatEkle{
+position: absolute;
+left :920px;
+top  :100px;
+width : 150px;
+height: 25px;
+border-radius: 5px;
+}
+.RandevularGösterButton{
+position: absolute;
+left  : 925px;
+top   : 200px;
+width : 150px;
+height: 25px;
+background: rgb(153, 194, 247);
+border-radius: 5px;
+
+}
+.RandevularEkleButton{
+position: absolute;
+left  : 200px;
+top   : 200px;
+width : 100px;
+height: 25px;
+background: rgb(153, 194, 247);
+border-radius: 5px;
+    
+}
+.RandevularEkleButton2{
+    position: absolute;
+    left  : 200px;
+    top   : 500px;
+    width : 100px;
+    height: 25px;
+    background: rgb(153, 194, 247);
+    border-radius: 5px;    
+}
+.scriptTakvim{
+position: absolute;
+color:white;
+left  : 600px;
+top   : 150px;
+}
+.scriptTakvim2{
+position: absolute;
+color:white;
+left  : 150px;
+top   : 250px;
+}
+.Tablo{
+position: absolute;
+left  : 100px;
+top   : 370px;   
+width : 1200px;
+height: 200px;
+}
+
+.p2{
+color:white;
+}
+.bolumAyarlariButton{
+position: absolute;
+left  : 268px;
+top   : 190px;
+width : 150px;
+height: 25px;
+background: rgb(153, 194, 247);
+border-radius: 5px;
+
+}
+.fakulteAyarlariButton{
+position: absolute;
+left  : 400px;
+top   : 100px;
+width : 150px;
+height: 25px;
+background: rgb(153, 194, 247);   
+border-radius: 5px;
+}
+.pAkademisyenEkle{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :350px; 
+}
+.fakulteAyarlarıTablo {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 1200px;
+    height: 200px;
+}
+.bolumAyarlariTablo {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 1200px;
+    height: 200px;
+}
+.pUnvan {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 100px;
+    top: 100px;
+}
+.pAdi{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :145px; 
+}
+.pSoyadi{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :455px; 
+}
+.pFakulte{
+  position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :490px; 
+}
+.pBolumu{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :525px; 
+}
+.pMailAdresi{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :560px; 
+}
+.pTelefon{
+position: absolute;
+color :white;
+font-size:15px;
+left :100px;
+top  :595px; 
+}
+.inputUnvan{
+position: absolute;
+left :180px;
+top  :100px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.inputAdi{
+position: absolute;
+left :180px;
+top  :145px;
+width : 235px;
+height: 25px;
+border-radius: 5px;
+}
+.inputSoyadi{
+position: absolute;
+left :180px;
+top  :455px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.inputFakulte{
+position: absolute;
+left :180px;
+top  :490px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.inputBolumu{
+position: absolute;
+left :180px;
+top  :525px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.inputMailAdresi{
+position: absolute;
+left :180px;
+top  :560px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.inputTelefon{
+position: absolute;
+left :180px;
+top  :595px;
+width : 200px;
+height: 25px;
+border-radius: 5px;
+}
+.akademisyenEkleButton{
+position: absolute;
+left  : 400px;
+top   : 595px;
+width : 200px;
+height: 25px;
+background: rgb(153, 194, 247);
+border-radius: 5px;
+}
+.anasayfaButton2{
+    position: absolute;
+    left  : 200px;
+    top   : 120px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+
+}    
+.fakulteAyarlariButton2{
+    position: absolute;
+    left  : 400px;
+    top   : 120px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+}
+.bolumAyarlariButton2{
+    position: absolute;
+    left  : 600px;
+    top   : 120px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+}
+.akademisyenAyarlariButton2{
+    position: absolute;
+    left  : 200px;
+    top   : 260px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+}
+.ogrenciAyarlariButton2{
+    position: absolute;
+    left  : 400px;
+    top   : 260px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+}
+.ayarlarButton2{
+    position: absolute;
+    left  : 600px;
+    top   : 260px;
+    width : 175px;
+    height: 125px;
+    background: rgb(153, 194, 247);
+    border-radius: 10px;
+}
+.profilAd {
+    color: white;
+    padding-right: 15px;
+}
+    .profilAd:hover {
+        text-decoration: none;
+        color: bisque;
+}
+.cikisbtn {
+    color: white;
+    padding-right: 10px;
+}
+.cikisbtn:hover {
+        text-decoration: none;
+        color: bisque;
+}
+.logo {
+    width: 70px;
+    height: 50px;
+}
+.nav-link:hover {
+    cursor: default;
+}
+.sidenav {
+    height: 100%;
+    width: 50px; /*Genişliği javascriptle değiştir*/
+    position: fixed;
+    margin-top: 76px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    overflow-x: hidden; /*Yatay kaydırmayı devre dışı bırak */
+    transition: 0.5s; /* Sidenav'da kaymaya 0,5 saniye geçiş efekti */
+    padding-top: 60px; /*İçeriği üstten 60 piksel yerleştirin */
+}
+.sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+}
+        /*Menüler üzerine gelince  renklerini değiştirin */
+.sidenav a:hover {
+            color: #f1f1f1;
+}
+    /*Kapat düğmesini konumlandırın ve stillendirin (sağ üst köşe) */
+.sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+.sidenav {
+        padding-top: 15px;
+}
+.sidenav a {
+    font-size: 18px;
+}}
+.bg-primary {
+    background-color: darkslateblue !important;
+}
+.sidenav2 {
+    height: 100%;
+    width: 50px; /*Genişliği javascriptle değiştir*/
+    position: fixed;
+    margin-top: 76px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    overflow-x: hidden; /*Yatay kaydırmayı devre dışı bırak */
+    transition: 0.5s; /* Sidenav'da kaymaya 0,5 saniye geçiş efekti */
+    padding-top: 60px; /*İçeriği üstten 60 piksel yerleştirin */
+}
+.sidenav2 a {
+        padding: 8px 8px 8px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        margin-bottom: 30px;
+}
+/*Menüler üzerine gelince  renklerini değiştirin */
+.sidenav2 a:hover {
+            color: #f1f1f1;
+}
+/*Kapat düğmesini konumlandırın ve stillendirin (sağ üst köşe) */
+.sidenav2 .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+.sidenav2 {
+        padding-top: 15px;
+}
+
+.sidenav2 a {
+            font-size: 18px;
+}
+}

@@ -1,0 +1,68 @@
+p{color:black;}
+  body {
+    background-image: url('../img/arkaplan.jpg');
+  }
+  .yazi{
+  width: 1000px;
+  margin:auto;
+  }
+  .sola-kaydir{
+  float:left;
+  padding:0 10px 10px 50px;
+  }
+  .btn1{
+    position: absolute;
+
+        left: 600px;
+        top: 250px;
+        width: 150px;
+      height: 50px;
+      background: rgb(153, 194, 247);
+      border-radius: 12px;
+  }
+  .btn2{
+    
+    position: absolute;
+
+        left: 600px;
+        top: 350px;
+        width: 150px;
+      height: 50px;
+      background: rgb(153, 194, 247);
+      border-radius: 12px;
+  }
+  .btn3{
+    
+    position: absolute;
+
+        left: 640px;
+        top: 400px;
+        width: 150px;
+        font-size: 18px;
+        color:lightblue;
+        text-decoration:none;
+        
+      
+     
+  }
+.btn3 a {
+  text-decoration: none;
+  color: black;
+}
+  .h3{
+    position:relative;
+    left: 600px;
+    bottom: 150px;
+    color:lightblue; 
+    font:arial 18px;
+  }
+  .p1{
+    position:relative;
+    left:450px;
+    top:300;
+    font-size:30px bold;
+  } 
+  .baslik{
+    position: relative;
+    top: 35px;
+  }

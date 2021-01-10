@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FEBFDBD-9706-4275-8B70-65DCFFBDF967}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DRS.WebUI</RootNamespace>
+    <AssemblyName>DRS.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=19.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.8.6.2\lib\net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.4.1\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminGiris.aspx" />
+    <Content Include="admin\admin.aspx" />
+    <Content Include="admin\bolumAyarlari.aspx" />
+    <Content Include="admin\fakulteAyarlari.aspx" />
+    <Content Include="akademisyenGiris.aspx" />
+    <Content Include="akademisyen\gecmisRandevular.aspx" />
+    <Content Include="akademisyen\musaitlik.aspx" />
+    <Content Include="akademisyen\onayBekleyenRandevular.aspx" />
+    <Content Include="akademisyen\profil.aspx" />
+    <Content Include="akademisyen\randevular.aspx" />
+    <Content Include="css\giris.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\kayit.css" />
+    <Content Include="css\popup.css" />
+    <Content Include="css\profil.css" />
+    <Content Include="css\randevu.css" />
+    <Content Include="default.aspx" />
+    <Content Include="img\arkaplan.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\RS1.jpeg" />
+    <Content Include="img\RS2.jpeg" />
+    <Content Include="img\RS3.jpeg" />
+    <Content Include="img\RS4.jpeg" />
+    <Content Include="img\takvim.png" />
+    <Content Include="img\uyari\Bilgi.png" />
+    <Content Include="img\uyari\Hata.png" />
+    <Content Include="img\uyari\Loading.gif" />
+    <Content Include="img\uyari\Tamam.png" />
+    <Content Include="img\uyari\Uyari.png" />
+    <Content Include="js\admin.js" />
+    <Content Include="js\AdminGirisi.js" />
+    <Content Include="js\Alert.js" />
+    <Content Include="js\giris.js" />
+    <Content Include="js\jquery\jquery-3.4.1.min.js" />
+    <Content Include="js\popup.js" />
+    <Content Include="js\kayitOl.js" />
+    <Content Include="js\profilScript.js" />
+    <Content Include="js\randevu.js" />
+    <Content Include="js\ogrenci\randevuTalep.js" />
+    <Content Include="js\sweetalert\sweetalert\sweetalert-dev.js" />
+    <Content Include="js\sweetalert\sweetalert\sweetalert.css" />
+    <Content Include="js\sweetalert\sweetalert\sweetalert.min.js" />
+    <Content Include="kayitOl.aspx" />
+    <Content Include="ogrenciGiris.aspx" />
+    <Content Include="ogrenci\gecmisRandevular.aspx" />
+    <Content Include="ogrenci\onayBekleyenRandevular.aspx" />
+    <Content Include="ogrenci\profil.aspx" />
+    <Content Include="ogrenci\randevular.aspx" />
+    <Content Include="ogrenci\randevuTalep.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminGiris.aspx.cs">
+      <DependentUpon>adminGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminGiris.aspx.designer.cs">
+      <DependentUpon>adminGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\bolumAyarlari.aspx.cs">
+      <DependentUpon>bolumAyarlari.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\bolumAyarlari.aspx.designer.cs">
+      <DependentUpon>bolumAyarlari.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\fakulteAyarlari.aspx.cs">
+      <DependentUpon>fakulteAyarlari.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\fakulteAyarlari.aspx.designer.cs">
+      <DependentUpon>fakulteAyarlari.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyenGiris.aspx.cs">
+      <DependentUpon>akademisyenGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyenGiris.aspx.designer.cs">
+      <DependentUpon>akademisyenGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyen\gecmisRandevular.aspx.cs">
+      <DependentUpon>gecmisRandevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyen\gecmisRandevular.aspx.designer.cs">
+      <DependentUpon>gecmisRandevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyen\musaitlik.aspx.cs">
+      <DependentUpon>musaitlik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyen\musaitlik.aspx.designer.cs">
+      <DependentUpon>musaitlik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyen\onayBekleyenRandevular.aspx.cs">
+      <DependentUpon>onayBekleyenRandevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyen\onayBekleyenRandevular.aspx.designer.cs">
+      <DependentUpon>onayBekleyenRandevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyen\profil.aspx.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyen\profil.aspx.designer.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="akademisyen\randevular.aspx.cs">
+      <DependentUpon>randevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="akademisyen\randevular.aspx.designer.cs">
+      <DependentUpon>randevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kayitOl.aspx.cs">
+      <DependentUpon>kayitOl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayitOl.aspx.designer.cs">
+      <DependentUpon>kayitOl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciGiris.aspx.cs">
+      <DependentUpon>ogrenciGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenciGiris.aspx.designer.cs">
+      <DependentUpon>ogrenciGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci\gecmisRandevular.aspx.cs">
+      <DependentUpon>gecmisRandevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci\gecmisRandevular.aspx.designer.cs">
+      <DependentUpon>gecmisRandevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci\onayBekleyenRandevular.aspx.cs">
+      <DependentUpon>onayBekleyenRandevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci\onayBekleyenRandevular.aspx.designer.cs">
+      <DependentUpon>onayBekleyenRandevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci\profil.aspx.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci\profil.aspx.designer.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci\randevular.aspx.cs">
+      <DependentUpon>randevular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci\randevular.aspx.designer.cs">
+      <DependentUpon>randevular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci\randevuTalep.aspx.cs">
+      <DependentUpon>randevuTalep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci\randevuTalep.aspx.designer.cs">
+      <DependentUpon>randevuTalep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DRS.Is\DRS.Is.csproj">
+      <Project>{57014859-F073-4894-B4FC-D9757C35F1B7}</Project>
+      <Name>DRS.Is</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DRS.VeriErisim\DRS.VeriErisim.csproj">
+      <Project>{E9057E42-66BC-41C7-9621-44691FEF00A5}</Project>
+      <Name>DRS.VeriErisim</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DRS.Veriler\DRS.Veriler.csproj">
+      <Project>{2CDCFE15-8083-41C6-99CD-24FF75A19042}</Project>
+      <Name>DRS.Veriler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51928</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44380/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,76 @@
+ p{
+        color:black;
+}
+.p1{
+                        
+        position: absolute;
+        color:white;
+        font-size:20px;
+        left :475px;
+        top  :150px; 
+}
+.p2{
+                        
+        position: absolute;
+        color:white;
+        font-size:20px;
+        left :475px;
+        top  :200px; 
+}
+.p3{
+                       
+        position: absolute;
+        left :430px;
+        top  :75px;
+        color:black; 
+}
+               
+body {
+        background-image: url('../img/arkaplan.jpg');
+}
+.baslik{
+        width: 1000px;
+        margin:auto;
+}
+.btn1{
+        position: absolute;
+        left  : 700px;
+        top   : 275px;
+        width : 75px;
+        height: 30px;
+        background: rgb(153, 194, 247);
+        border-radius: 10px;
+}
+.input{
+        position: absolute;
+        left :600px;
+        top  :170px;
+        border-radius: 5px;
+
+}
+.input2{
+        position: absolute;
+        left :600px;
+        top  :220px;
+        border-radius: 5px;
+
+}
+.mailHatasi{
+         position: absolute;
+         left  : 560px;
+         top   : 200px;
+         font-size : 18px;
+         color : red;
+                 }
+ .passHatasi{
+           position: absolute;
+           left  : 560px;
+           top   : 250px;
+           font-size : 18px;
+           color : red;
+                 }
+.sola-kaydir{
+        float:left;
+        padding:0 10px 10px 50px;
+}
+

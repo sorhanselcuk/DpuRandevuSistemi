@@ -1,0 +1,197 @@
+ .p1{
+        position: absolute;
+        left  : 450px;
+        top   : 50px;
+        color : white;
+        }
+.p2{
+        position: absolute;
+        left  : 450px;
+        top   : 130px; 
+        font-size : 20px;
+        color : white;
+        }  
+.p3{
+        position: absolute;
+        left  : 450px;
+        top   : 175px; 
+        font-size : 20px;
+        color : white;
+        }  
+.p4{
+        position: absolute;
+        left  : 450px;
+        top   : 220px; 
+        font-size : 20px;
+        color : white;
+        }  
+.p5{
+        position: absolute;
+        left  : 450px;
+        top   : 265px; 
+        font-size : 20px;
+        color : white;
+        }
+.p6{
+        position: absolute;
+        left  : 450px;
+        top   : 310px; 
+        font-size : 20px;
+        color : white;
+        }
+.p7{
+        position: absolute;
+        left  : 450px;
+        top   : 400px; 
+        font-size : 20px;
+        color : white;
+}.p8{
+        position: absolute;
+        left  : 470px;
+        top   : 445px; 
+        font-size : 18px;
+        color : white;
+}.p9{
+        position: absolute;
+        left  : 610px;
+        top   : 445px;  
+        font-size : 18px;
+        color : white;
+}
+.p10{
+        position: absolute;
+        left  : 430px;
+        top   : 355px;  
+        font-size : 18px;
+        color : white;
+}
+.input{
+        position: absolute;
+        left  : 520px;
+        top   : 150px; 
+        border-radius: 5px;
+}
+.input2{
+        position: absolute;
+        left  : 520px;
+        top   : 195px; 
+        border-radius: 5px;
+}
+.input3{
+        position: absolute;
+        left  : 520px;
+        top   : 240px; 
+        border-radius: 5px;
+}
+.input4{
+        position: absolute;
+        left  : 520px;
+        top   : 285px; 
+        border-radius: 5px;
+     
+}
+
+.input5{
+        position: absolute;
+        left  : 520px;
+        top   : 330px; 
+        border-radius: 5px;
+} 
+.input6{
+        position: absolute;
+        left  : 520px;
+        top   : 375px; 
+        border-radius: 5px;
+}  
+.input7{
+        position: absolute;
+        left  : 450px;
+        top   : 460px; 
+        border-radius: 5px;
+} 
+.input8{
+        position: absolute;
+        left  : 590px;
+        top   : 460px; 
+        border-radius: 5px;
+}.input9{
+        position: absolute;
+        left  : 520px;
+        top   : 420px; 
+        border-radius: 5px;
+}
+.btn1{
+        position: absolute;
+        left  : 595px;
+        top   : 500px; 
+        width : 75px;
+        height: 30px;
+        background: rgb(153, 194, 247);
+        border-radius: 5px;
+}
+.isimHatasi{
+        position: absolute;
+        left  : 510px;
+        top   : 175px;
+        font-size : 16px;
+        color : red;
+  }
+.soyadHatasi{
+         position: absolute;
+         left  : 510px;
+         top   : 220px;
+         font-size : 16px;
+         color : red;
+ }
+.mailHatasi{
+         position: absolute;
+         left  : 510px;
+         top   : 265px;
+         font-size : 16px;
+         color : red;
+
+                    }
+ .fakulteHatasi{
+           position: absolute;
+           left  : 510px;
+           top   : 315px;
+           font-size : 16px;
+           color : red;
+           
+
+  }
+.bolumHatasi{
+           position: absolute;
+           left  : 510px;
+           top   : 350px;
+           font-size : 16px;
+           color : red;
+
+ }
+
+ .passHatasi{
+             position: absolute;
+              left  : 510px;
+              top   : 447px;
+              font-size : 16px;
+              color : red;
+ }
+  .ogrNoHatasi{
+             position: absolute;
+              left  : 510px;
+              top   : 400px;
+              font-size : 16px;
+              color : red;
+ }
+p{color:black;}
+body {
+        background-image: url('../img/arkaplan.jpg');
+}
+.kayit{
+width: 1000px;
+margin:auto;
+}
+.sola-kaydir{
+float:left;
+padding:0 10px 10px 50px;
+}

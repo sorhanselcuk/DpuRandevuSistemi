@@ -1,0 +1,16 @@
+
+#randevuList > tr:hover{
+    background-color: slategrey;
+}
+table{
+    border: 1px solid gray;
+    box-shadow:  0.5px 0.5px 0.5px 0.5px;
+}
+.konuHatasi {
+      position: absolute;
+           left  : 240px;
+           top   : 425px;
+           font-size :17px;
+           color : red;
+
+}

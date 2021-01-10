@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9057E42-66BC-41C7-9621-44691FEF00A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DRS.VeriErisim</RootNamespace>
+    <AssemblyName>DRS.VeriErisim</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.8.6.2\lib\net45\FluentValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.3.4.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.4\lib\net45\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.4.1\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IAdminGirisDal.cs" />
+    <Compile Include="Abstract\IAkademisyenDal.cs" />
+    <Compile Include="Abstract\IAkademisyenGirisDal.cs" />
+    <Compile Include="Abstract\IBolumDal.cs" />
+    <Compile Include="Abstract\IFakulteDal.cs" />
+    <Compile Include="Abstract\IGecmisRandevuDal.cs" />
+    <Compile Include="Abstract\IMusaitlikDal.cs" />
+    <Compile Include="Abstract\INesne.cs" />
+    <Compile Include="Abstract\IOgrenciDal.cs" />
+    <Compile Include="Abstract\IOgrenciGirisDal.cs" />
+    <Compile Include="Abstract\IRandevuDal.cs" />
+    <Compile Include="Abstract\ISaatDal.cs" />
+    <Compile Include="Abstract\VeriTabani.cs" />
+    <Compile Include="Concrete\Sql\SQLAdminGirisDal.cs" />
+    <Compile Include="Concrete\Sql\SQLAkademisyenDal.cs" />
+    <Compile Include="Concrete\Sql\SQLAkademisyenGirisDal.cs" />
+    <Compile Include="Concrete\Sql\SQLBolumDal.cs" />
+    <Compile Include="Concrete\Sql\SQLFakulteDal.cs" />
+    <Compile Include="Concrete\Sql\SQLGecmisRandevuDal.cs" />
+    <Compile Include="Concrete\Sql\SQLMusaitlikDal.cs" />
+    <Compile Include="Concrete\Sql\SQLOgrenciDal.cs" />
+    <Compile Include="Concrete\Sql\SQLOgrenciGirisDal.cs" />
+    <Compile Include="Concrete\Sql\SQLRandevuDal.cs" />
+    <Compile Include="Concrete\Sql\SQLSaatDal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DRS.Veriler\DRS.Veriler.csproj">
+      <Project>{2CDCFE15-8083-41C6-99CD-24FF75A19042}</Project>
+      <Name>DRS.Veriler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
