@@ -48,7 +48,7 @@ namespace DRS.Is.Concrete
             smtpClient.UseDefaultCredentials = true;
             smtpClient.Credentials = new NetworkCredential("Mail Address","password");
             smtpClient.EnableSsl = true;
-            MailMessage mailMessage = new MailMessage("dpurandevusistem@gmail.com", _ogrenciMail);
+            MailMessage mailMessage = new MailMessage("MailAddress", _ogrenciMail);
             mailMessage.IsBodyHtml = true;
             mailMessage.Subject = _mailKonu;
             mailMessage.Body = _mailIcerik;
