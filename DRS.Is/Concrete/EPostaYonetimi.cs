@@ -46,7 +46,7 @@ namespace DRS.Is.Concrete
             smtpClient.Port =587;
             smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtpClient.UseDefaultCredentials = true;
-            smtpClient.Credentials = new NetworkCredential("dpurandevusistem@gmail.com","dpurandevusistem123");
+            smtpClient.Credentials = new NetworkCredential("Mail Address","password");
             smtpClient.EnableSsl = true;
             MailMessage mailMessage = new MailMessage("dpurandevusistem@gmail.com", _ogrenciMail);
             mailMessage.IsBodyHtml = true;
